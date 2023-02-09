@@ -39,7 +39,7 @@ This dataset measures 50 states and 4 other US owned territories.
 ## Descriptive Analytics
 
 Most of the south region states with few northest & midwest region states showed to have high diabetes rate.
-![](Images/Top 10 States)
+![](https://github.com/the-liat/project-1/blob/main/Images/Top%2010%20States%20Diabetes.png)
 
 ## Predictive Analytics
 
