@@ -56,13 +56,41 @@ We found that there is a significant difference in the rates of diabetes between
 According to the graph below, the west region has the lowest diabetes rates, and the south has the highest rates of diabetes.
 ![](Images/rates%20per%20region.png)
 
-
 ## Predictive Analytics
+The linear regression method is leveraged to study the relationship between nutrition, physical activity, obesity, and diabetes. The Pearson correlation coefficients are calculated between each pair of variables to determine how strong the relationship of the three independent indicators is to diabetes rates.
+### For Obesity Indicator
+The relationship between diabetes rates and the percentage of adults who are overweight and obese is studied.
+
+![](Images/obesity%20vs%20diabetes.png) & ![](Images/overweight%20vs%20diabetes.png)
+
+### For Exercise Indicator
+We explored the relationship between diabetes rates:
+- Percent of adults who do not exercise
+- Percent of adults who do muscle strengthening workouts 2+ times/week
+- Percent of adults who engage in aerobic exercise, 150 min/week
+- Percent of adults who engage in aerobic exercise, 300
+- Percent of adults who engage in aerobic exercise, 150 min/week, and do muscle training 2+ times/week.
 
 
+### For Nutrition Indicator
+The relationship between diabetes rates  and the percent of adults who consume less than one fruit a day and less than one vegetable a day is studied.
 
+Overall, there are moderate correlations between most of our indicators and diabetes (|0.45|< r <|0.71|). Due to the strong correlations among all indicators, we selected one analysis category from each indicator grouping as a predictor in a regression model.
 
+### Predicting Diabetes Based on Obesity 
+The correlation between diabetes and obesity is moderate (r=0.52). Higher obesity rates in the states in 2011-2015 predict higher diabetes rates in 2016-2017.
 
+![](Images/diabetes%20vs%20obesity.png)
+
+### Predicting Diabetes Based on Nutrition
+The correlation between diabetes and low vegetable consumption is moderate (r = 0.56). Higher rates of low vegetable consumption in the years 2011-2015 predict higher diabetes rates in the years 2016 -2017
+
+![](Images/diabetes%20vs%20low%20vegetable%20consumption.png)
+
+### Predicting Diabetes Based on Exercise
+The correlation between diabetes and inactivity is strong (r = 0.71). Higher rates of adults who are inactive in the states in the years 2011-2015 predict higher diabetes rates in the years 2016-2017.
+
+![](Images/diabetes%20vs%20Inactivity.png)
 
 
 
