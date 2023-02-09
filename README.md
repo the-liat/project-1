@@ -22,5 +22,17 @@ United States?
 * Inspect relationship between nutrition, physical activity, obesity, and diabetes.
 * Predict diabetes rates based on nutrition, physical activity, obesity and diabetes. 
 
+## Understanding the Datasets
+### Challenges
+When researching the topic, we found multiple data sources but few captured the data we wanted to use.
+We found two datasets that had the variables of interest, but they had different structures, and we needed to transform them to be a similar structure in order to merge them
+### Dataset 1: 500 Cities: Adult Diabetes(csv)
+Data was provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. This project explores diabetes rates at the city level and includes sample size and population
+Variables & Observations:
+This dataset displays 24 columns, 29,006 rows in table. This dataset measures 50 states and 2 other US owned territories.
+
+
+
+
 
 
