@@ -44,13 +44,13 @@ after cleaning the data set and restructuring it:
 
 ## Descriptive Analytics
 
-Most of the south region states with few northest & midwest region states showed to have high diabetes rate.
+Most of the South region states with few Northeast & Midwest region states showed to have high diabetes rate.
 ![](Images/Top%2010%20States%20Diabetes.png)
-The West region states (combination of West and Midwest) showed to have low Diabetes rates, with the exception of Vermont and Maine state that are in the Northeast region.
+The West region states (combination of West and Midwest) showed to have low diabetes rates, with the exception of Vermont and Maine state that are in the Northeast region.
 ![](Images/Bottom%2010%20States%20Diabetes.png)
 The following map shows the rates of diabetes across the United States
 ![](Images/Diabetes%20map.png)
-We grouped the data into the 4 regions of the US and compare the rates of Diabetes across the states.
+We grouped the data into the 4 regions of the US and compare the rates of diabetes across the states.
 ![](Images/boxplot.png)
 We found that there is a significant difference in the rates of diabetes between the different US regions.
 According to the graph below, the west region has the lowest diabetes rates, and the south has the highest rates of diabetes.
@@ -58,12 +58,11 @@ According to the graph below, the west region has the lowest diabetes rates, and
 
 ## Predictive Analytics
 The linear regression method is leveraged to study the relationship between nutrition, physical activity, obesity, and diabetes. The Pearson correlation coefficients are calculated between each pair of variables to determine how strong the relationship of the three independent indicators is to diabetes rates.
-### For Obesity Indicator
+
+#### For Obesity Indicator
 The relationship between diabetes rates and the percentage of adults who are overweight and obese is studied.
 
-![](Images/obesity%20vs%20diabetes.png) & ![](Images/overweight%20vs%20diabetes.png)
-
-### For Exercise Indicator
+#### For Exercise Indicator
 We explored the relationship between diabetes rates:
 - Percent of adults who do not exercise
 - Percent of adults who do muscle strengthening workouts 2+ times/week
@@ -71,13 +70,12 @@ We explored the relationship between diabetes rates:
 - Percent of adults who engage in aerobic exercise, 300
 - Percent of adults who engage in aerobic exercise, 150 min/week, and do muscle training 2+ times/week.
 
-
-### For Nutrition Indicator
+#### For Nutrition Indicator
 The relationship between diabetes rates  and the percent of adults who consume less than one fruit a day and less than one vegetable a day is studied.
 
 Overall, there are moderate correlations between most of our indicators and diabetes (|0.45|< r <|0.71|). Due to the strong correlations among all indicators, we selected one analysis category from each indicator grouping as a predictor in a regression model.
 
-### Predicting Diabetes Based on Obesity 
+#### Predicting Diabetes Based on Obesity 
 The correlation between diabetes and obesity is moderate (r=0.52). Higher obesity rates in the states in 2011-2015 predict higher diabetes rates in 2016-2017.
 
 ![](Images/diabetes%20vs%20obesity.png)
@@ -92,6 +90,12 @@ The correlation between diabetes and inactivity is strong (r = 0.71). Higher rat
 
 ![](Images/diabetes%20vs%20Inactivity.png)
 
+## Summary
+- We determined an average diabetes of 10.3% across the fifty states in the United States.
+- There is a significant difference in rates of diabetes in the four regions. The south region had the highest diabetes average rate of 12.1%, and the West with the lowest average rate of 8.6%. And the Northeast and Midwest have an average rate of 10.1%.
+- Nutrition, physical activity, and obesity are highly correlated.
+- Obesity rates in the states explain 27% of the variability in diabetes rates.
+- Inactivity rates in the states show 51% of the variability in diabetes rates.
+- Low vegetable consumption rates in the states show 31% of the variability in diabetes rates.
 
-
-
+In conclusion, our study does support the hypothesis that good nutrition, exercise, and good weight management help to improve the health of a diabetic patient.
